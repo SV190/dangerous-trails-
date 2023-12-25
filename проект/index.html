@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1920, height=1080, initial-scale=1.0">
+  <title>Проект Опасные Тропы</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=1809f927-8fc4-4d4e-b474-5fc0bc555d94&lang=ru_RU" type="text/javascript"></script>
+</head>
+<body class="background-tint">
+<!-- partial:index.partial.html -->
+<!-- Sticky header -->
+<header class="header-outer">
+	<div class="header-inner responsive-wrapper">
+		<div class="header-logo" >
+			<a href="https://rguk.ru/">
+			<img src="./img/Green.png" />
+		</a>
+		</div>
+		<nav class="header-navigation">
+			<a href="index.html">Дом</a>
+			<a href="about.html">О проекте</a>
+			<a href="blog.html">Блог</a>
+			<a href="contact.html">Контакты</a>
+			<button>Menu</button>
+		</nav>
+	</div>
+</header>
+<!-- Content -->
+<main class="main">
+	<div class="main-content responsive-wrapper">
+		<article id="mainArticle" class="widget">
+			<h2>Проект Опасные Тропы</h2>			
+			<div id="map"></div>
+
+			<button class="btn" id="addMarkerBtn">Добавить метку</button>
+			<div id="optionsForm"></div>				
+		</article>
+		
+	</div>
+</main>
+
+
+
+<footer class="footer">
+	<div class="footer__addr">
+	  
+	  <div class="header-logo">
+		<a href="https://rguk.ru/">
+			<img src="./img/Green.png" />
+		</a>
+	</div>
+		  
+	  <h2>Контакты</h2>
+	  
+	  <address>
+		Москва, Малая Калужская, 1 м. Шаболовская<br>
+			
+		<a class="footer__btn" href="mailto:example@gmail.com">Напиши</a>
+	  </address>
+	</div>
+	
+	<ul class="footer__nav">
+	  <li class="nav__item">
+		<h2 class="nav__title">Университет</h2>
+  
+		<ul class="nav__ul">
+		  <li>
+			<a href="https://rguk.ru/sveden/">Сведения об образовательной организации</a>
+		  </li>
+  
+		  <li>
+			<a href="https://rguk.ru/university/departments/">Институты</a>
+		  </li>
+			  
+		  <li>
+			<a href="https://rguk.ru/university/structure/">Подразделения</a>
+		  </li>
+		</ul>
+	  </li>
+	  
+	  <li class="nav__item nav__item--extra">
+		<h2 class="nav__title">Студентам</h2>
+		
+		<ul class="nav__ul nav__ul--extra">
+		  <li>
+			<a href="https://rguk.ru/students/schedule/">Расписание учебных занятий</a>
+		  </li>
+		  
+		  <li>
+			<a href="https://rguk.ru/students/exams/">Расписание экзаменов</a>
+		  </li>
+		  
+		  <li>
+			<a href="https://rguk.ru/university/structure/adm/otdel-platnykh-obrazovatelnykh-uslug/">Платные образовательные услуги</a>
+		  </li>
+		  
+		  <li>
+			<a href="https://rguk.ru/students/gia/">График проведения государственной итоговой аттестации</a>
+		  </li>
+		  
+		  <li>
+			<a href="https://rguk.ru/students/library/">Библиотека</a>
+		  </li>
+		  
+		  <li>
+			<a href="https://rguk.ru/students/dormitory/">Студенческий городок</a>
+		  </li>
+		</ul>
+	  </li>
+	  
+	  <li class="nav__item">
+		<h2 class="nav__title">Наука</h2>
+		
+		<ul class="nav__ul">
+		  <li>
+			<a href="https://rguk.ru/science/nti/">Научно-техническая информация</a>
+		  </li>
+		  
+		  <li>
+			<a href="https://rguk.ru/science/kosygin-forum/">Международный Косыгинский форум</a>
+		  </li>
+		  
+		  <li>
+			<a href="https://rguk.ru/science/nir/">Бланки документов на выполнение НИОКР</a>
+		  </li>
+		</ul>
+	  </li>
+	</ul>
+	
+	<div class="legal">
+	  <p>&copy; 2023 Dangerous Trails. All rights reserved.</p>
+	</div>
+  </footer>
+<!-- partial -->
+  
+<script  src="./script.js"></script>
+</body>
+</html>
